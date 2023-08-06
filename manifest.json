@@ -1,7 +1,7 @@
 {
     "name": "Alparu Follow Cursor",
     "version": "1.0.0",
-    "description": "alparu follow mouse (real). Browser port of the classic xneko/oneko program.",
+    "description": "alparu follow your cursor inspired by oneko.",
     "manifest_version": 3,
     "author": "Titivoot Pangrit",
     "action":{
