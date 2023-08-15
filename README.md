@@ -8,4 +8,4 @@
 
 You can install it in your browser store.
 
-Chrome | [Edge](https://microsoftedge.microsoft.com/addons/detail/ajeookaeapdkpjbpibolhfggpfjghjoc)
+[Chrome](https://chrome.google.com/webstore/detail/jlgmkimjkcdgodjllmfdomehgkmkcdbf) | [Edge](https://microsoftedge.microsoft.com/addons/detail/ajeookaeapdkpjbpibolhfggpfjghjoc)
