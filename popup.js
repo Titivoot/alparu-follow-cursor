@@ -1,8 +1,8 @@
-const slider = document.querySelector('.slider');
+const slider = document.querySelector(".slider");
 const checkbox = document.querySelector('input[type="checkbox"]');
 
 function setSliderBackground(checked) {
-  slider.style.backgroundColor = checked ? '#000' : '#B0B0B0';
+  slider.style.backgroundColor = checked ? "#000" : "#B0B0B0";
 }
 
 function toggleCheckbox() {
@@ -13,11 +13,11 @@ function toggleCheckbox() {
 }
 
 function loadToggleStateFromStorage() {
-  chrome.storage.local.get('checked', ({ checked }) => {
+  chrome.storage.local.get("checked", ({ checked }) => {
     checkbox.checked = checked;
     setSliderBackground(checked);
   });
 }
 
-checkbox.addEventListener('change', toggleCheckbox);
+checkbox.addEventListener("change", toggleCheckbox);
 loadToggleStateFromStorage();
